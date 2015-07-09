@@ -1,11 +1,17 @@
 {
   "name": "language-haskell",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Haskell language support in Atom",
   "repository": "https://github.com/atom-haskell/language-haskell",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "season": "^2.0.0",
+    "coffee-script": "~1.9.0"
+  },
+  "scripts": {
+    "postinstall": "coffee src/haskell.coffee"
+  }
 }
