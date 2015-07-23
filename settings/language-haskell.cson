@@ -1,8 +1,7 @@
 '.source.haskell':
   'editor':
     'commentStart': '-- '
-    'increaseIndentPattern': '((^.*(=|\\bdo|\\bwhere|\\bthen|\\belse|\\bof)\\s*$)|(^.*\\bif(?!.*\\bthen\\b.*\\belse\\b.*).*$))'
-    'decreaseIndentPattern': '^\\s*$'
+    'increaseIndentPattern': '(((=|\\bdo|\\bwhere|\\bthen|\\belse|\\bof)\\s*)|(\\bif(?!.*\\bthen\\b.*\\belse\\b.*).*))$'
 '.source.cabal':
   'editor':
     'commentStart':'-- '
