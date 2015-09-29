@@ -1,3 +1,15 @@
+## 1.4.8
+* Amend quote escapes fix
+
+## 1.4.7
+* Quote escapes fix (#53)
+
+## 1.4.6
+* Word anchoring and tick (') handling (#52)
+
+## 1.4.5
+* Fix double quote escape in strings (#51)
+
 ## 1.4.4
 * Fix gadt and record syntax conflict (#50)
 
